@@ -1,0 +1,14 @@
+char *my_strcat(char *dest, char *src);
+char *my_strncat(char *dest, char *src, int n);
+int my_strcmp(char *str1, char *str2);
+int my_strncmp(char *str1, char*str2, int n);
+char *my_strcpy(char *dest, char *str);
+char *my_strncpy(char *dest, char *src, int n);
+int my_strlen(char *s);
+char *my_strchr(char *s, int c);
+char *my_strrchr(char *s, int c);
+char *my_strtok(char *s, char *delimiters);
+char *my_strstr(char *s, char *pat);
+int my_strspn(char *s, char *spanset); 
+int my_strcspn(char *s, char *spanset);
+char *my_strpbrk(char *s, char *spanset);
